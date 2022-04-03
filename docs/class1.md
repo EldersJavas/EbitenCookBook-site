@@ -23,13 +23,13 @@ sidebar_label: 1.安装Ebiten
 
 ### C编译器
 
-`macOS`,`Linux`,`FreeBSD`需要先安装C编译器(基本上使用`gcc`)
+macOS,Linux,FreeBSD需要先安装C编译器(基本上使用`gcc`)
 
 #### MacOS
 ~~据说~~在最新的MacOS上,在命令行输入`clang`后,如果没有C编译器,系统会引导您安装.  
 其他版本的MacOS还可以通过`brew install gcc`安装.
 
-:::提示
+:::important
 
 如果在安装时报出以下错误:
 ```bash
@@ -40,7 +40,7 @@ xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools
 :::
 
 #### Linux
-以Linux发行版`Ubuntu`为例,运行:
+以Linux发行版Ubuntu为例,运行:
 ```bash
 sudo apt install gcc
 ```
@@ -85,9 +85,9 @@ pkg install alsa-lib libxcursor libxi libxinerama libxrandr mesa-libs pkgconf
 如果还没安装的话,可以到[golang.google.cn/dl](https://golang.google.cn/dl/)(国内镜像)或[go.dev/dl](https://go.dev/dl/)(全球)下载.  
 建议直接装最新版本,因为 Ebiten 向上兼容.  
 
-:::提醒
+:::important
 
-Ebiten v2.2.5 要求最低Go版本: 1.1..
+Ebiten v2.2.5 要求最低Go版本: 1.15.
 
 :::
 
@@ -96,7 +96,7 @@ Ebiten v2.2.5 要求最低Go版本: 1.1..
 ```bash
 go get github.com/hajimehoshi/ebiten/v2
 ```
-:::笔记
+:::note
 
 这里一定不要漏掉最后的`v2`,否则就会安装Ebiten v1.12.
 
