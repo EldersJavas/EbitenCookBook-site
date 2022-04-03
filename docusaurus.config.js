@@ -74,6 +74,22 @@ module.exports = {
       copyright: `Copyright © ${new Date().getFullYear()} EbitenPot`,
     },
   },
+  i18n: {
+    defaultLocale: 'zh',
+    locales: ['en', 'zh'],
+    localeConfigs: {
+      en: {
+        label: 'English',
+        direction: 'ltr',
+        htmlLang: 'en-US',
+      },
+      zh: {
+        label: '简体中文',
+        direction: 'ltr',
+        htmlLang: 'zh-CN',
+      },
+    },
+  },
   baseUrlIssueBanner: true,
   presets: [
     [
