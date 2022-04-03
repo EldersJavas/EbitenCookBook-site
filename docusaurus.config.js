@@ -3,21 +3,21 @@ module.exports = {
   tagline: 'Ebiten从入门到退坑(不是',
   url: 'https://ebitencookbook.vercel.app/',
   baseUrl: '/',
-  favicon: 'img/favicon.ico',
-  organizationName: 'EbitenPot', // Usually your GitHub org/user name.
+  favicon: 'https://ebiten-zh.vercel.app/images/favicon.png',
+  organizationName: 'EldersJavas', // Usually your GitHub org/user name.
   projectName: 'EbitenCookBook', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: 'Ebiten CookBook',
       logo: {
         alt: 'Ebiten CookBook',
-        src: 'img/logo.svg',
+        src: 'https://ebiten-zh.vercel.app/images/favicon.png',
       },
       items: [
         {
-          to: 'docs/doc1',
-          activeBasePath: 'docs',
-          label: 'Docs',
+          to: 'docs/class1',
+          activeBasePath: 'CookBook',
+          label: 'CookBook',
           position: 'left',
         },
         {to: 'blog', label: 'Blog', position: 'left'},
@@ -35,12 +35,8 @@ module.exports = {
           title: 'Docs',
           items: [
             {
-              label: 'Style Guide',
-              to: 'docs/doc1',
-            },
-            {
-              label: 'Second Doc',
-              to: 'docs/doc2',
+              label: 'CookBook',
+              to: 'docs/class1',
             },
           ],
         },

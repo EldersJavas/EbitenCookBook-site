@@ -1,10 +1,15 @@
 ---
 id: class1
-title: 第一课 安装Ebiten
-sidebar_label: 1.安装Ebiten
+title: 第一课 安装 Ebiten
+sidebar_label: 1.安装 Ebiten
 ---
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+import TOCInline from '@theme/TOCInline';
 
-# 课前
+<TOCInline toc={toc} />
+
+# 第一课 安装 Ebiten
 欢迎大家来到 Ebiten 中文教程.  
 今天我们正式开始学习Ebiten的开发.
 
@@ -24,8 +29,7 @@ sidebar_label: 1.安装Ebiten
 ### C编译器
 
 macOS,Linux,FreeBSD需要先安装C编译器(基本上使用`gcc`)
-
-#### MacOS
+#### macOS
 ~~据说~~在最新的MacOS上,在命令行输入`clang`后,如果没有C编译器,系统会引导您安装.  
 其他版本的MacOS还可以通过`brew install gcc`安装.
 
@@ -55,26 +59,45 @@ pkg install clang
 
 ### 安装其他依赖
 #### Linux 发行版
-##### Debian / Ubuntu
+
+<Tabs groupId="operating-systems">
+  <TabItem value="Debian" label="Debian/Ubuntu">
+
 ```bash
 sudo apt install libc6-dev libglu1-mesa-dev libgl1-mesa-dev libxcursor-dev libxi-dev libxinerama-dev libxrandr-dev libxxf86vm-dev libasound2-dev pkg-config
 ```
-##### Fedora
+
+  </TabItem>
+  <TabItem value="Fedora" label="Fedora">
+
 ```bash
 sudo dnf install mesa-libGLU-devel mesa-libGLES-devel libXrandr-devel libXcursor-devel libXinerama-devel libXi-devel libXxf86vm-devel alsa-lib-devel pkg-config
 ```
-##### Solus
+
+  </TabItem>
+  <TabItem value="Solus" label="Solus">
+
 ```bash
 sudo eopkg install libglu-devel libx11-devel libxrandr-devel libxinerama-devel libxcursor-devel libxi-devel libxxf86vm-devel alsa-lib-devel pkg-config
 ```
-##### Arch
-```bash
+
+  </TabItem>
+  <TabItem value="Arch" label="Arch">
+
+```bash 
 sudo pacman -S mesa libxrandr libxcursor libxinerama libxi pkg-config
 ```
-##### Alpine
+
+  </TabItem>
+  <TabItem value="Alpine" label="Alpine">
+
 ```bash
 sudo apk add alsa-lib-dev libx11-dev libxrandr-dev libxcursor-dev libxinerama-dev libxi-dev mesa-dev pkgconf
 ```
+
+  </TabItem>
+</Tabs>
+
 #### FreeBSD
 ```bash
 pkg install alsa-lib libxcursor libxi libxinerama libxrandr mesa-libs pkgconf
