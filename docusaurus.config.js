@@ -83,7 +83,7 @@ module.exports = {
         direction: 'ltr',
         htmlLang: 'en-US',
       },
-      fr: {
+      zh: {
         label: '简体中文',
         direction: 'ltr',
         htmlLang: 'zh-CN',
