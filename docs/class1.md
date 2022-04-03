@@ -10,7 +10,7 @@ sidebar_label: 1.安装Ebiten
 
 # 安装开发环境
 
-也可以参杂官方教程(中文文档): <https://ebiten-zh.vercel.app/documents/install.html>
+也可以参照官方教程(中文文档): <https://ebiten-zh.vercel.app/documents/install.html>
 
 ## 安装操作系统
 没有的话建议remake.
