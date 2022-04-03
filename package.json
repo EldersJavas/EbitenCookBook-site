@@ -1,7 +1,7 @@
 {
-  "name": "docusaurus-2",
-  "version": "0.0.0",
-  "private": true,
+  "name": "ebiten-cook-book",
+  "version": "1.0.0",
+  "private": false,
   "scripts": {
     "start": "docusaurus start",
     "build": "docusaurus build",
@@ -9,8 +9,8 @@
     "deploy": "docusaurus deploy"
   },
   "dependencies": {
-    "@docusaurus/core": "^2.0.0-alpha.54",
-    "@docusaurus/preset-classic": "^2.0.0-alpha.54",
+    "@docusaurus/core": "2.0.0-beta.18",
+    "@docusaurus/preset-classic": "2.0.0-beta.18",
     "classnames": "^2.2.6",
     "react": "^16.8.4",
     "react-dom": "^16.8.4"

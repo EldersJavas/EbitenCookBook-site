@@ -1,19 +1,19 @@
 module.exports = {
-  title: 'My Site',
-  tagline: 'The tagline of my site',
-  url: 'https://your-docusaurus-test-site.com',
+  title: 'Ebiten CookBook',
+  tagline: 'Ebiten从入门到退坑(不是',
+  url: 'https://ebitencookbook.vercel.app/',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'EbitenPot', // Usually your GitHub org/user name.
+  projectName: 'EbitenCookBook', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'Ebiten CookBook',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'Ebiten CookBook',
         src: 'img/logo.svg',
       },
-      links: [
+      items: [
         {
           to: 'docs/doc1',
           activeBasePath: 'docs',
@@ -22,7 +22,7 @@ module.exports = {
         },
         {to: 'blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/EldersJavas/EbitenCookBook-site',
           label: 'GitHub',
           position: 'right',
         },
@@ -48,16 +48,12 @@ module.exports = {
           title: 'Community',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'EbitenPot GitHub',
+              href: 'https://github.com/EbitenPot',
             },
             {
               label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              href: 'https://discord.gg/y3UbyKKKWW',
             },
           ],
         },
@@ -69,15 +65,32 @@ module.exports = {
               to: 'blog',
             },
             {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              label: 'Resources (GitHub)',
+              href: 'https://github.com/EldersJavas/EbitenCookBook-site',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} EbitenPot`,
     },
   },
+  i18n: {
+    defaultLocale: 'zh',
+    locales: ['en', 'zh'],
+    localeConfigs: {
+      en: {
+        label: 'English',
+        direction: 'ltr',
+        htmlLang: 'en-US',
+      },
+      fr: {
+        label: '简体中文',
+        direction: 'ltr',
+        htmlLang: 'zh-CN',
+      },
+    },
+  },
+  baseUrlIssueBanner: true,
   presets: [
     [
       '@docusaurus/preset-classic',
