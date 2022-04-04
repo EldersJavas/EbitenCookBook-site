@@ -16,8 +16,14 @@ module.exports = {
       items: [
         {
           to: 'docs/CookBook_Start/class1',
-          activeBasePath: 'CookBook',
-          label: 'CookBook',
+          activeBasePath: 'CookBook_Starter',
+          label: 'CookBook 入门指南',
+          position: 'left',
+        },
+        {
+          to: 'docs/CookBook_Start/class1',
+          activeBasePath: 'CookBook_Adv',
+          label: 'CookBook 进阶教程',
           position: 'left',
         },
         {to: 'blog', label: 'Blog', position: 'left'},
@@ -79,7 +85,7 @@ module.exports = {
     locales: ['en', 'zh'],
     localeConfigs: {
       en: {
-        label: 'English',
+        label: 'English (pls wait)',
         direction: 'ltr',
         htmlLang: 'en-US',
       },
