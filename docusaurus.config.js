@@ -15,7 +15,7 @@ module.exports = {
       },
       items: [
         {
-          to: 'docs/class1',
+          to: 'docs/CookBook_Start/class1',
           activeBasePath: 'CookBook',
           label: 'CookBook',
           position: 'left',
@@ -24,6 +24,10 @@ module.exports = {
         {
           href: 'https://github.com/EldersJavas/EbitenCookBook-site',
           label: 'GitHub',
+          position: 'right',
+        },
+        {
+          type: 'localeDropdown',
           position: 'right',
         },
       ],
@@ -36,7 +40,7 @@ module.exports = {
           items: [
             {
               label: 'CookBook',
-              to: 'docs/class1',
+              to: 'docs/CookBook_Start/class1',
             },
           ],
         },

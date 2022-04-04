@@ -68,7 +68,7 @@ function Home() {
                 'button button--outline button--secondary button--lg',
                 styles.getStarted,
               )}
-              to={useBaseUrl('docs/class1')}>
+              to={useBaseUrl('docs/CookBook_Start/class1')}>
               开始阅读
             </Link>
           </div>
