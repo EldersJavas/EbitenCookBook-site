@@ -1,0 +1,34 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.someSidebar.category.CookBook 入门指南": {
+    "message": "CookBook 入门指南",
+    "description": "The label for category CookBook 入门指南 in sidebar someSidebar"
+  },
+  "sidebar.someSidebar.category.CookBook 进阶教程": {
+    "message": "CookBook 进阶教程",
+    "description": "The label for category CookBook 进阶教程 in sidebar someSidebar"
+  },
+  "sidebar.someSidebar.category.Ebiten API": {
+    "message": "Ebiten API",
+    "description": "The label for category Ebiten API in sidebar someSidebar"
+  },
+  "sidebar.someSidebar.category.Ebiten 技巧": {
+    "message": "Ebiten 技巧",
+    "description": "The label for category Ebiten 技巧 in sidebar someSidebar"
+  },
+  "sidebar.someSidebar.category.Ebiten 开发规范": {
+    "message": "Ebiten 开发规范",
+    "description": "The label for category Ebiten 开发规范 in sidebar someSidebar"
+  },
+  "sidebar.someSidebar.category.EbitenPot IDE 教程": {
+    "message": "EbitenPot IDE 教程",
+    "description": "The label for category EbitenPot IDE 教程 in sidebar someSidebar"
+  },
+  "sidebar.someSidebar.category.Ebiten 社区": {
+    "message": "Ebiten 社区",
+    "description": "The label for category Ebiten 社区 in sidebar someSidebar"
+  }
+}

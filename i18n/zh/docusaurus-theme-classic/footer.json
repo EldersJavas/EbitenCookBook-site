@@ -1,0 +1,38 @@
+{
+  "link.title.Docs": {
+    "message": "Docs",
+    "description": "The title of the footer links column with title=Docs in the footer"
+  },
+  "link.title.Community": {
+    "message": "Community",
+    "description": "The title of the footer links column with title=Community in the footer"
+  },
+  "link.title.More": {
+    "message": "More",
+    "description": "The title of the footer links column with title=More in the footer"
+  },
+  "link.item.label.CookBook": {
+    "message": "CookBook",
+    "description": "The label of footer link with label=CookBook linking to docs/CookBook_Start/class1"
+  },
+  "link.item.label.EbitenPot GitHub": {
+    "message": "EbitenPot GitHub",
+    "description": "The label of footer link with label=EbitenPot GitHub linking to https://github.com/EbitenPot"
+  },
+  "link.item.label.Discord": {
+    "message": "Discord",
+    "description": "The label of footer link with label=Discord linking to https://discord.gg/y3UbyKKKWW"
+  },
+  "link.item.label.Blog": {
+    "message": "Blog",
+    "description": "The label of footer link with label=Blog linking to blog"
+  },
+  "link.item.label.Resources (GitHub)": {
+    "message": "Resources (GitHub)",
+    "description": "The label of footer link with label=Resources (GitHub) linking to https://github.com/EldersJavas/EbitenCookBook-site"
+  },
+  "copyright": {
+    "message": "Copyright © 2022 EbitenPot",
+    "description": "The footer copyright"
+  }
+}

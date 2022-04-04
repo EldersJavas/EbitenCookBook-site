@@ -15,7 +15,15 @@
   --ifm-color-primary-lighter: #e36d3e;
   --ifm-color-primary-lightest: #e8865f;
 }
-
+[data-theme='dark'] {
+  --ifm-color-primary: #db5620;
+  --ifm-color-primary-dark: #c54d1d;
+  --ifm-color-primary-darker: #ba491b;
+  --ifm-color-primary-darkest: #993c16;
+  --ifm-color-primary-light: #e16533;
+  --ifm-color-primary-lighter: #e36d3e;
+  --ifm-color-primary-lightest: #e8865f;
+}
 .docusaurus-highlight-code-line {
   background-color: rgb(72, 77, 91);
   display: block;

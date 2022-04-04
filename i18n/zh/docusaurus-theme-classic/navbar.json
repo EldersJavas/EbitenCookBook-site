@@ -1,0 +1,22 @@
+{
+  "title": {
+    "message": "Ebiten CookBook",
+    "description": "The title in the navbar"
+  },
+  "item.label.CookBook 入门指南": {
+    "message": "CookBook 入门指南",
+    "description": "Navbar item with label CookBook 入门指南"
+  },
+  "item.label.CookBook 进阶教程": {
+    "message": "CookBook 进阶教程",
+    "description": "Navbar item with label CookBook 进阶教程"
+  },
+  "item.label.Blog": {
+    "message": "Blog",
+    "description": "Navbar item with label Blog"
+  },
+  "item.label.GitHub": {
+    "message": "GitHub",
+    "description": "Navbar item with label GitHub"
+  }
+}
